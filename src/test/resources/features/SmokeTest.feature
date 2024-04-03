@@ -1,3 +1,4 @@
+@Smoke @Regression
 Feature: Major functionalities for smoke test
 
   Scenario: Validate Home Page title and sign in button
