@@ -8,8 +8,8 @@ import org.junit.runner.RunWith;
     @CucumberOptions (
             features="classpath:features/CreateAccountTest.feature",
             glue="tek.bdd.steps",
-            dryRun = true,
-            tags = "@CreateNewAccount_3",
+            dryRun = false,
+            tags = "@Smoke",
             plugin = {
                     "pretty",
                     "html:target/html_report/index.html",
